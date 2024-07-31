@@ -1,0 +1,100 @@
+:root{
+    --bg-color:#a7f5c6;
+    --text-color:black;
+    --main-color:#224F34;
+    
+}
+/* <navbar> */
+
+.navbar{
+    height: 7rem;
+    background-color: var(--bg-color);
+}
+.navbar-brand{
+    color:  #224F34  !important;
+    font-weight:bold; 
+    font-size: 2em !important;
+ 
+
+}
+.button{
+    border: 2px solid #224F34;
+    width: 6rem;
+    background-color:var(--bg-color) !important;
+}
+/* </navbar> */
+/*   <backgrond> */
+h1{   
+font-weight: bold;
+color:  #224F34  !important;
+}
+.header{
+    text-align: left;
+}
+h6{
+    color:  #224F34  !important;
+}
+.background{
+    background-color:var(--bg-color);
+}
+h2 ,p{
+    color: var(--main-color)  !important;
+    text-align: center;  
+
+}
+.btn{
+    padding: 14px 40px !important;
+    text-align: left !important;
+    background-color:var(--main-color) !important ;
+    text-align: left !important;
+    display: block   !important;
+    width: 100%   !important;
+}
+#img1{
+    background-color: #224F34;
+    border-radius: 141px 45px 150px 82px;
+    width: 50%;
+    height: 50%;
+}
+/*   </backgrond> */
+/* <bestselling>  */
+section{
+    width: 90%;
+    margin: auto;
+}
+.cap{
+    text-align: center;
+}
+.border{
+    border-left: 2px solid black;
+   margin: 0 20 0 20;
+   text-align: center;
+}
+.card{
+border-width: 0 !important;
+}
+/* <bestselling>  */
+/* our product */
+.list{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.item{
+    text-align: center;
+    padding: 60px;
+}
+/* </our product> */
+h3{
+    text-align: center;
+}
+.cover{
+    background-color: #a7f5c6;
+    width: 80%;
+    margin: auto !important;
+}
+.comma{
+    text-align: left;
+}

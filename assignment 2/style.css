@@ -1,0 +1,43 @@
+.inner{
+    display:flex;
+    width: 100%;
+}
+ .float-container {
+    background-color:  rgba(247, 247, 239, 0.89);
+    border: 3px solid  rgba(247, 247, 239, 0.89);
+    
+    width: 30%;
+    
+    margin: 0 auto;
+}
+.float-child {
+    width: 95%;
+    margin:auto;
+    margin-top: 1%;
+    background-color: rgb(253, 232, 232);
+    border: 5px solid rgb(253, 232, 232);
+    /* border-bottom: 3px solid rgb(237, 207, 152); */
+}  
+h1{
+    text-align: left;
+}
+.cap{
+    text-align: left;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+.star{
+    text-align: left;
+    padding: 5%;
+    border-bottom: 3px solid rgb(237, 207, 152);
+
+}
+.bottom{
+    display: flex;
+}
+
+.logo{
+    padding: 5%;
+    width: 100px;
+    /* width: 100px; */
+}
