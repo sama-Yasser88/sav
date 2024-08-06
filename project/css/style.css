@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+/* <nav bar2> */
+.container {
+  width: 100% !important;
+  
+}
+.logos {
+  width: 30%;
+}
+.logo {
+  width: 50%;
+  margin-left: 40px;
+}
+.list {
+  width: 70%;
+}
+
+.nav-item a {
+  font-weight: 600;
+}
+img {
+ max-width: 100%;
+}
+/* </nav bar2> */
+/* <meet our clients> */
+.inner
+{ 
+   width: 80%;
+    margin: auto;
+    display: flex;
+}
+.img{
+    width: 20%;
+}
+/* </meet our clients> */
+#img{
+    height: 30rem;
+}
+.cover {
+  width: 100%;
+  overflow: hidden;
+}
+h2{
+        font-weight: 900/* rtl:600 */;
+}
+.footer{
+  background-color: rgb(37, 33, 33);
+  height: 30rem;
+}
+.footer1{
+  background-color: rgb(49, 46, 46);
+}
+.footer1 h5{
+  text-align: center;
+  color: blue;
+  height: 5rem;
+}
+#text footer{
+  margin-left:-50px ;
+}
+.blue-section{
+  height: 8rem;
+}
+.btn{
+  border-radius: 50px !important;
+}
+.icon{
+  font-size: 50px;
+}
+.get-inf{
+  height: 25rem;
+}
+textarea{
+  resize: none;
+}
+.your-Message{
+  width: 85% !important;
+  margin: auto;
+}
+.contact{
+  height: 20rem;
+  background-image: url("../img/slider1.jpg");
+}
+.right-up{
+width: 2rem;
+height: 0.1rem;
+margin-left: 3rem;
+}
+.right-down{
+width: 5rem;
+height: 0.1rem;
+margin-top: 3px;
+}
+.left-up{
+    width: 2rem;
+    height: 0.1rem;
+}
+.left-down{
+    width: 5rem;
+    height: 0.1rem;
+    margin-top: 3px;
+}
+#img-about{
+  height: 30rem;
+  width: 70%;
+  margin-left: 33% !important;
+}
+.position-absolute{
+  left: 150px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.one-serve ,.serve-overlay{
+  height:250px;
+  border: 1px solid #6a6968;
+}
+.one-serve i{font-size: 3.125rem;}
+.one-serve h4{font-size: 1.7rem;}
+.serve-overlay{
+position: absolute;
+top: 100%;
+width: 100%;
+height: 100%;
+animation-name: serve;
+animation-duration: 0.5s;
+}
+.layer:hover .serve-overlay{
+  display: block!important;
+  top: 0%;
+}
+@keyframes serve {
+  0%{ top: 100%; }
+  100%{ top: 0%;}
+}
+.our-services .btn{
+  background-color: var(--primaryColor);
+  color: white;
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height:100%;
+  width: 100%;
+  background: rgba(14, 13, 13, 0.8);
+  transition: opacity 0.5s ease;
+  z-index: 1;
+}
+.contact-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 10%;
+  height:45%;
+  width: 100%;
+  background: rgba(39, 38, 38, 0.8);
+  transition: opacity 0.5s ease;
+}
+.cap-cover{
+  position: absolute;
+  bottom: 30% !important;
+  text-align: center;
+  z-index: 2;
+  color: white;
+  
+
+}
+.section3{
+  height: 12rem;
+}
+.work-list{
+  background-color: white !important;
+  border: 0 !important;
+}
+.work-list ul li{
+  list-style: none;
+  text-decoration:none;
+
+}
+.nav-tabs {
+  --bs-nav-tabs-border-width :0 !important;
+}
+.div-work{
+  position: absolute;
+  width: 90%;
+  height: 20%;
+  z-index: 999;
+  bottom: 5%;
+  margin-left: 10%;
+}
+.front, .back{
+  position: absolute;
+  backface-visibility: hidden;
+  background-color: rgba(12, 101, 237, .8);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 90%;
+  margin: auto;
+  height: 100%;
+  text-align: center;
+}
+.front{
+  transform: rotateY(180deg);
+
+}
+.back{
+  transform: rotateY(180deg);
+
+}
+.img-work:hover .front{
+  transform: rotateY(0deg);
+  transition: all 0.5s;
+  backface-visibility: hidden;
+
+}
+.fade:not(.show){
+  display: none!important;
+}
+.creative-overlay{
+  position: absolute;
+  top: 50%;
+  width: 80%;
+  height: 50%;
+  left: 20%;
+  transition: all 0.5s;
+  margin: auto;
+}
+.layer:hover .creative-overlay{
+      display: block!important;
+      top: 100%;
+}
+.fade:not(.show){
+  display: none!important;
+}
+@keyframes creative-overlay {
+  0%{ top: 50%; }
+  50%{ top: 0%;}
+}
+.card:hover img {
+  transform: scale(1.1) rotate(-3deg);
+}
+.cap-blog a{
+  
+  text-decoration: none;
+
+}
+.blog{
+  border: 2px solid blac;
+}
